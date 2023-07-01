@@ -48,17 +48,23 @@ const AppHeader = () => {
 					<div>
 						<Link to="/">
 							{activeTheme === 'dark' ? (
-								<img
-									src={logoDark}
-									className="w-36"
-									alt="Dark Logo"
-								/>
+								// <img
+								// 	src={logoDark}
+								// 	className="w-36"
+								// 	alt="Dark Logo"
+								// />
+								<h1 style={{ color: "black", fontSize: 24 }}>
+									Katie Page
+								</h1>
 							) : (
-								<img
-									src={logoLight}
-									className="w-36"
-									alt="Dark Logo"
-								/>
+								// <img
+								// 	src={logoLight}
+								// 	className="w-36"
+								// 	alt="Dark Logo"
+								// />
+								<h1 style={{ color: "white", fontSize: 24 }}>
+									Katie Page
+								</h1>
 							)}
 						</Link>
 					</div>
@@ -112,7 +118,7 @@ const AppHeader = () => {
 						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Projects"
 					>
-						Projects
+						Services
 					</Link>
 					<Link
 						to="/about"
@@ -131,10 +137,10 @@ const AppHeader = () => {
 					<div className="border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark">
 						<span
 							onClick={showHireMeModal}
-							className="font-general-medium sm:hidden block text-left text-md bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-sm px-4 py-2 mt-2 duration-300 w-24"
+							className="font-general-medium sm:hidden block text-left text-md bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-sm px-4 py-2 mt-2 duration-300 w-25"
 							aria-label="Hire Me Button"
 						>
-							<Button title="Hire Me" />
+							<Button title="Book Appointment" />
 						</span>
 					</div>
 				</div>
@@ -146,7 +152,7 @@ const AppHeader = () => {
 						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Projects"
 					>
-						Projects
+						Services
 					</Link>
 					<Link
 						to="/about"
@@ -172,7 +178,7 @@ const AppHeader = () => {
 							className="text-md font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
 							aria-label="Hire Me Button"
 						>
-							<Button title="Hire Me" />
+							<Button title="Book Appointment" />
 						</span>
 					</div>
 
