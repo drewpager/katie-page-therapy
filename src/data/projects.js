@@ -9,7 +9,7 @@ import UIImage2 from '../images/ui-project-2.jpg';
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Integrated Therapy',
+		title: 'Individual Therapy',
 		category: 'IFS',
 		img: WebImage2,
 		ProjectHeader: {
@@ -26,8 +26,8 @@ export const projectsData = [
 	},
 	{
 		id: 3,
-		title: 'Project Management UI',
-		category: 'UI/UX Design',
+		title: 'LGBTQIA+ Therapy',
+		category: 'LGBTQIA+',
 		img: UIImage1,
 	},
 	// {

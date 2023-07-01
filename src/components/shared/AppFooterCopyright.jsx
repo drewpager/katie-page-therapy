@@ -5,7 +5,7 @@ function AppFooterCopyright() {
 				&copy; {new Date().getFullYear()}
 				<p
 				>
-					Katie Page, LMFT
+					Katie Page, Marriage and Family Therapist Trainee
 				</p>
 			</div>
 		</div>
