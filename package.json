@@ -1,12 +1,14 @@
 {
 	"name": "katie-page-therapy",
 	"version": "0.1.0",
+	"homepage": "https://drewpager.github.io/katie-page-therapy/",
 	"private": false,
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^13.4.0",
 		"@testing-library/user-event": "^14.4.3",
 		"framer-motion": "4.1.17",
+		"gh-pages": "^5.0.0",
 		"postcss-cli": "^10.1.0",
 		"react": "^18.1.0",
 		"react-countup": "^6.1.1",
@@ -21,6 +23,7 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "yarn run react-scripts build",
+		"deploy": "gh-pages -d build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
 		"build:css": "postcss src/css/tailwind.css -o src/css/main.css"
