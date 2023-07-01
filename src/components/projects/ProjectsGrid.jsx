@@ -84,7 +84,7 @@ const ProjectsGrid = () => {
 							name="name"
 							type="search"
 							required=""
-							placeholder="Search Projects"
+							placeholder="Search Services"
 							aria-label="Name"
 						/>
 					</div>
