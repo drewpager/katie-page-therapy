@@ -9,19 +9,19 @@ import UIImage2 from '../images/ui-project-2.jpg';
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
-		category: 'Web Application',
+		title: 'Integrated Therapy',
+		category: 'IFS',
 		img: WebImage2,
 		ProjectHeader: {
-			title: 'Project Management UI - From Context',
-			publishDate: 'Jul 26, 2021',
-			tags: 'UI / Frontend',
+			title: 'Integrated Therapy Services',
+			publishDate: 'Jul 26, 2023',
+			tags: 'IFS',
 		},
 	},
 	{
 		id: 2,
-		title: 'Phoenix Digital Agency',
-		category: 'Mobile Application',
+		title: 'Couples Therapy',
+		category: 'Couples',
 		img: MobileImage2,
 	},
 	{
@@ -30,22 +30,22 @@ export const projectsData = [
 		category: 'UI/UX Design',
 		img: UIImage1,
 	},
-	{
-		id: 4,
-		title: 'Cloud Storage Platform',
-		category: 'UI/UX Design',
-		img: UIImage2,
-	},
-	{
-		id: 5,
-		title: 'React Social App',
-		category: 'Mobile Application',
-		img: MobileImage1,
-	},
-	{
-		id: 6,
-		title: 'Apple Design System',
-		category: 'Web Application',
-		img: WebImage1,
-	},
+	// {
+	// 	id: 4,
+	// 	title: 'Cloud Storage Platform',
+	// 	category: 'UI/UX Design',
+	// 	img: UIImage2,
+	// },
+	// {
+	// 	id: 5,
+	// 	title: 'React Social App',
+	// 	category: 'Mobile Application',
+	// 	img: MobileImage1,
+	// },
+	// {
+	// 	id: 6,
+	// 	title: 'Apple Design System',
+	// 	category: 'Web Application',
+	// 	img: WebImage1,
+	// },
 ];
