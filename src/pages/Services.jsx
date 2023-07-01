@@ -1,7 +1,7 @@
-import ProjectsGrid from '../components/projects/ProjectsGrid';
+import ProjectsGrid from '../components/services/ProjectsGrid';
 import { ProjectsProvider } from '../context/ProjectsContext';
 
-const Projects = () => {
+const Services = () => {
 	return (
 		<ProjectsProvider>
 			<div className="container mx-auto">
@@ -11,4 +11,4 @@ const Projects = () => {
 	);
 };
 
-export default Projects;
+export default Services;

@@ -1,16 +1,16 @@
 // Import images
 import WebImage1 from '../images/web-project-1.jpg';
-import WebImage2 from '../images/web-project-2.jpg';
+import WebImage2 from '../images/individual.jpg';
 import MobileImage1 from '../images/mobile-project-1.jpg';
-import MobileImage2 from '../images/mobile-project-2.jpg';
-import UIImage1 from '../images/ui-project-1.jpg';
+import MobileImage2 from '../images/couples.jpg';
+import UIImage1 from '../images/lgbt-couple.jpg';
 import UIImage2 from '../images/ui-project-2.jpg';
 
 export const projectsData = [
 	{
 		id: 1,
-		title: 'Individual Therapy',
-		category: 'IFS',
+		title: 'IFS Parts Work Therapy',
+		category: 'Individual Therapy',
 		img: WebImage2,
 		ProjectHeader: {
 			title: 'Integrated Therapy Services',
@@ -20,14 +20,14 @@ export const projectsData = [
 	},
 	{
 		id: 2,
-		title: 'Couples Therapy',
-		category: 'Couples',
+		title: 'Couples and Sex Therapy',
+		category: 'Couples Therapy',
 		img: MobileImage2,
 	},
 	{
 		id: 3,
-		title: 'LGBTQIA+ Therapy',
-		category: 'LGBTQIA+',
+		title: 'LGBT Communities',
+		category: 'LGBTQIA+ Therapy',
 		img: UIImage1,
 	},
 	// {

@@ -1,8 +1,8 @@
 const selectOptions = [
-	'Web Application',
-	'Mobile Application',
-	'UI/UX Design',
-	'Branding',
+	'Individual Therapy',
+	'Couples Therapy',
+	'LGBTQIA+ Therapy',
+	'IFS Therapy',
 ];
 
 const ProjectsFilter = ({ setSelectProject }) => {
