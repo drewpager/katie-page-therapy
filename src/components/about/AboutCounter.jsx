@@ -4,8 +4,8 @@ import CounterItem from './CounterItem';
 const AboutCounter = () => {
 	useCountUp({ ref: 'experienceCounter', end: 2, duration: 1 });
 	useCountUp({ ref: 'clientsCounter', end: 20, duration: 2 });
-	useCountUp({ ref: 'hoursCounter', end: 192, duration: 2 });
-	useCountUp({ ref: 'hourProgressCounter', end: (192/300)*100, duration: 2 });
+	useCountUp({ ref: 'hoursCounter', end: 875, duration: 2 });
+	useCountUp({ ref: 'hourProgressCounter', end: (875/3000)*100, duration: 2 });
 
 	return (
 		<div className="mt-10 sm:mt-20 bg-primary-light dark:bg-ternary-dark shadow-sm">
