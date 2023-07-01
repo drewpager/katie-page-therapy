@@ -8,10 +8,10 @@ import './css/App.css';
 import UseScrollToTop from './hooks/useScrollToTop';
 
 const About = lazy(() => import('./pages/AboutMe'));
-const Contact = lazy(() => import('./pages/Contact.jsx'));
+const Contact = lazy(() => import('./pages/Contact'));
 const Home = lazy(() => import('./pages/Home'));
 const Services = lazy(() => import('./pages/Services'));
-const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
+const ProjectSingle = lazy(() => import('./pages/ProjectSingle'));
 
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
 							<Route path="/" element={<Home />} />
 							<Route path="services" element={<Services />} />
 							<Route
-								path="projects/single-project"
+								path="services/single-project"
 								element={<ProjectSingle />}
 							/>
 
