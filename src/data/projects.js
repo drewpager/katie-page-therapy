@@ -1,10 +1,7 @@
 // Import images
-import WebImage1 from '../images/web-project-1.jpg';
 import WebImage2 from '../images/individual.jpg';
-import MobileImage1 from '../images/mobile-project-1.jpg';
 import MobileImage2 from '../images/couples.jpg';
 import UIImage1 from '../images/lgbt-couple.jpg';
-import UIImage2 from '../images/ui-project-2.jpg';
 
 export const projectsData = [
 	{

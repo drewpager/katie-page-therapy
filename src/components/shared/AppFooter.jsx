@@ -1,9 +1,7 @@
 import {
-	FiGithub,
 	FiTwitter,
 	FiLinkedin,
 	FiGlobe,
-	FiYoutube,
 } from 'react-icons/fi';
 import AppFooterCopyright from './AppFooterCopyright';
 
@@ -19,12 +17,12 @@ const socialLinks = [
 	// 	url: 'https://github.com/realstoman',
 	// },
 	{
-		id: 3,
+		id: 2,
 		icon: <FiTwitter />,
 		url: 'https://twitter.com/',
 	},
 	{
-		id: 4,
+		id: 3,
 		icon: <FiLinkedin />,
 		url: 'https://www.linkedin.com/in/santoskatie/',
 	},
