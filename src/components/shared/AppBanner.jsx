@@ -1,6 +1,7 @@
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 import bloomingLight from '../../images/blooming.svg';
 import bloomingDark from '../../images/blooming.svg';
+import KatiePage from '../../images/katie-page.jpeg';
 import { motion } from 'framer-motion';
 
 const AppBanner = () => {
@@ -13,7 +14,7 @@ const AppBanner = () => {
 			transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
 			className="flex flex-col sm:justify-between items-center sm:flex-row mt-12 md:mt-2"
 		>
-			<div className="w-full md:w-1/3 text-left">
+			<div className="w-full md:w-1/2 text-left">
 				<motion.h1
 					initial={{ opacity: 0 }}
 					animate={{ opacity: 1 }}
@@ -64,13 +65,14 @@ const AppBanner = () => {
 				initial={{ opacity: 0, y: -180 }}
 				animate={{ opacity: 1, y: 0 }}
 				transition={{ ease: 'easeInOut', duration: 0.9, delay: 0.2 }}
-				className="w-full sm:w-2/3 text-right float-right mt-8 sm:mt-0"
+				className="w-6 ml-2 sm:w-full text-right float-right mt-8 sm:mt-0"
 			>
 				<img
 					src={
-						activeTheme === 'dark' ? bloomingLight : bloomingDark 
+						activeTheme === 'dark' ? KatiePage : KatiePage
 					}
-					alt="Developer"
+					className="rounded-md"
+					alt="Katie Page Headshot"
 				/>
 			</motion.div>
 		</motion.section>
